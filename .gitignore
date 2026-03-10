@@ -1,0 +1,19 @@
+# Environment file
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+
+# Ignore python cache
+__pycache__/
+
+# Secrets folder
+secrets/
+!secrets/.gitkeep
+
+# Ignore pgdata
+pgdata/
+
+product/gunicorn.ctl
